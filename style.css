@@ -1,0 +1,265 @@
+body {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    overflow-x: hidden;
+}
+#homecontainer h1{
+    margin: 0;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4em;
+    text-align: right;
+    padding: 3em;
+    padding-bottom: .25em;
+    color: #4f1d1e;
+}
+
+h2 {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#homecontainer h2{
+    font-size: 2em;
+    font-weight: 200;
+    text-align: right;
+    margin: 0;
+    padding-right: 6em;
+    margin-bottom: 5em;
+}
+
+#homecontainer {
+    background-image: url(resources/homescreenbg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1000px;
+    text-align: right;
+    display: block;
+}
+
+#block {
+    width: 100%;
+    height: 425px;
+    background-color: #9f9fa0;
+    text-align: center;
+}
+
+#quoteblock {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 200;
+    margin: 0 auto;
+    box-shadow: 0px 10px 25px 5px #888888;
+    padding-top: 1em;
+    width: 90%;
+    max-height: 425px;
+    background-color:#ffffff;
+    color: #000000;
+}
+
+#quoteblock p {
+    text-align: justify;
+    padding-left: 16em;
+    font-size: 1.13em;
+}
+
+#quoteblock h1{
+    text-align: left;
+    margin: 0;
+    font-size: 5em;
+    padding-left: 3em;
+    color: #9f9fa0;
+}
+
+#quoteblock h2{
+    text-align: right;
+    margin: 0;
+    font-size: 5em;
+    padding-right: 3em;
+    color: #9f9fa0;
+}
+
+#quoteblock h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    margin: 0;
+    padding-left: 12em;
+}
+
+#quoteblock h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 335px;
+    margin: 0;
+    padding-bottom: 2em;
+}
+
+#homeinfo {
+    background-image: url(resources/solonotebook.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 20em;
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+#nav img {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+ul {
+    margin: 0 auto;
+    list-style-type: none;
+    padding-right: 150px;
+    padding-top: 75px;
+}
+
+ul li{
+    display: inline-block;
+    text-align: right;
+    padding-right: 100px;
+}
+
+ul li a{
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all .25s;
+}
+
+ul li a:hover {
+    border-bottom: solid 2px #4f1d1e;
+    display: inline;
+    padding-bottom: 2px;
+}
+.homeinfo {
+    text-align: center;
+    margin: 2em;
+    width: 400px;
+    border: 2px solid dimgray;
+    transition: all 0.5s;
+    height: 500px;
+}
+
+.homeinfo:hover {
+    border-radius: 25px;
+    border-color: #4f1d1e;    
+    transform: scale(1.02);
+}
+
+.homeinfo img{
+    padding: 1em;
+}
+
+.homeinfo p {
+    font-family: 'Exo 2', sans-serif;
+    padding: 2em;
+    height: 100px;
+    text-align: justify;
+    padding-top: 0;
+    margin: 0;
+}
+
+.homeinfo h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: .15em;
+    margin-bottom:0;
+}
+
+.moreinfo {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 200;
+    border: 2px solid #9f9fa0;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #9f9fa0;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.moreinfo:hover {
+    transform: scale(1.05);
+    color: #000000;
+    border: 2px solid #9f9fa0;
+}
+
+.footerinfo a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    transition: all .15s;
+}
+
+.footerinfo {
+    margin: 0;
+    padding: 0;  
+}
+
+.footerinfo a:hover{
+    color: #000000;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    padding: 1em;
+    background-color: #9f9fa0;
+    color: #ffffff;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 100%;
+    border-top: 2px solid dimgray;
+}
+
+
+#plant {
+    width:100%;
+}
+
+#plant img{
+    position: absolute;
+    left: 1500px;
+    top: 1100px;
+    transition: all 1s;
+}
+
+#plant img:hover{
+    transform: translateX(-25px);
+}
+
+#button {
+    margin: 2em;
+    padding-right: 9em;
+    display: block;
+}
+
+.btn {
+    margin: 1em;
+    padding: 15px 30px;
+    border: 2px solid dimgray;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    color: dimgray;
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    color: #4f1d1e;
+    border-color: #9f9fa0;
+    font-size: 1.1em;
+}
